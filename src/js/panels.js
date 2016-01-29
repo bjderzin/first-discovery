@@ -966,7 +966,8 @@ https://raw.githubusercontent.com/GPII/first-discovery/master/LICENSE.txt
             instructions: ".gpiic-fd-instructions",
             themeRow: ".flc-prefsEditor-themeRow",
             themeLabel: ".flc-prefsEditor-theme-label",
-            themeInput: ".flc-prefsEditor-themeInput"
+            themeInput: ".flc-prefsEditor-themeInput",
+
         },
         repeatingSelectors: ["themeRow"],
         listeners: {
@@ -1239,12 +1240,16 @@ https://raw.githubusercontent.com/GPII/first-discovery/master/LICENSE.txt
      */
 
     fluid.defaults("gpii.firstDiscovery.panel.save", {
-        gradeNames: ["fluid.prefs.panel"],
+        gradeNames: ["gpii.firstDiscovery.attachTooltip.renderer","fluid.prefs.panel"],
         preferenceMap: {
             "gpii.firstDiscovery.save": {}
         },
+        tooltipContentMap: {
+            "testButton": "testButtonTooltip"
+        },
         selectors: {
-            message: ".gpiic-fd-save-message"
+            message: ".gpiic-fd-save-message",
+            testButton: "#gpiic-fd-save-testButton"
         },
         protoTree: {
             message: {
@@ -1252,7 +1257,6 @@ https://raw.githubusercontent.com/GPII/first-discovery/master/LICENSE.txt
             }
         }
     });
-
 
     /*
      * Token panel
