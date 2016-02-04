@@ -1,0 +1,24 @@
+{
+  "back": "Select to return to other practices",
+  "refresh": "Select to refresh your score",
+  "check": "Select to check your answer",
+  "home": "Select to return to homepage",
+
+  "multiply": "Select to go to multiplication practice",
+  "factor": "Select to go to factoring practice",
+  "divide": "Select to go to dividing practice",
+  "demo": "This is a Demonstration, not a live website",
+
+  "one": "One",
+  "two": "Two",
+  "three": "Three",
+  "four": "Four",
+  "five": "Five",
+  "six": "Six",
+  "seven": "Seven",
+  "eight": "Eight",
+  "nine": "Nine",
+  "zero": "Zero",
+
+  "delete": "Backspace"
+}
